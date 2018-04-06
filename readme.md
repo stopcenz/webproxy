@@ -37,13 +37,13 @@ Webproxy
 >Please choose the region where you want your App Engine application located:
 
 > [1] europe-west2  (supports standard and flexible)
-
+>
 > [2] us-east1      (supports standard and flexible)
-
+>
 >  .. 
-
+>
 > [12] cancel
-
+>
 >Please enter your numeric choice:
 
 Если вы не знаете что выбрать, можете просто нажать "1" и клавишу ввода. 
