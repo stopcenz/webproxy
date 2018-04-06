@@ -51,12 +51,12 @@ Webproxy
 Утилита установит соединение с указанной площадной:
 
 >Creating App Engine application in project [{ваш_Project_ID}] and region [us-central]....done.
-
+>
 > ..
-
+>
 >Do you want to continue (Y/n)?
 
-Нажмите ввод еще раз чтобы начать развертывание.
+Нажмите ввод еще раз чтобы завершить развертывание.
 
 После завершения ваше приложение сразу станет доступно по адресу https://{ваш_Project_ID}.appspot.com
 
