@@ -30,7 +30,7 @@ Webproxy
 
 Чтобы приступить к развертыванию приложения на сервере выполните команду:
 
-    gcloud app deploy webproxy/app.yaml --version 1
+    gcloud app deploy webproxy/app.yaml --version 1 --project ваш_Project_ID
 
 Будет выведен список доступных площадок:
 
