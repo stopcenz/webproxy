@@ -49,7 +49,7 @@ Webproxy
 
 Если вы не знаете что выбрать, можете просто нажать "1" и клавишу ввода. Утилита установит соединение с указанной площадной. 
 
->Creating App Engine application in project [kinozal-zerkalo] and region [us-central]....done.
+>Creating App Engine application in project [{ваш_Project_ID}] and region [us-central]....done.
 
 > ..
 
