@@ -3,7 +3,7 @@ Webproxy
 
 Обратный прокси сайта kinozal.tv для платформы Google App Engine. Для работы достаточно бесплатного аккаунта. 
 
-Попробуйте пример обратного прокси: [http://kinozal-zerkalo.appspot.com](http://kinozal-zerkalo.appspot.com) .
+Попробуйте пример обратного прокси: [http://kinozal-zerkalo.appspot.com](http://kinozal-zerkalo.appspot.com) . (может быть временно недоступно из-за исчерпания квот. В этом случае попытайтесь открыть после 11:00 МСК).
 
 
 Развертывание на Google App Engine
@@ -21,21 +21,19 @@ Webproxy
 
 ![Activate Goole Cloud Shell](http://images.vfl.ru/ii/1523011521/427768bf/21273769.png)
 
-В нижней части окна откроется черное окно консоли. Вставьте в нее следующую команду и нажмите ввод.
+В нижней части окна откроется черное окно консоли. Вставьте в нее следующую команду и нажмите ввод:
 
     git clone https://github.com/stopcenz/webproxy
 
 Начнется копирование готового проекта в рабочую область. При успешном завершении в конце будет напечатана строка *Unpacking objects: 100% (34/34), done*.
 
-Чтобы начать развертывание приложения на сервере выполните команду
+Чтобы начать развертывание приложения на сервере выполните команду:
 
     gcloud app deploy webproxy/app.yaml --version 1
 
-Будет выведен список доступных площадок. 
+Будет выведен список доступных площадок:
 
->Please choose the region where you want your App Engine application
-
->located:
+>Please choose the region where you want your App Engine application located:
 
 > [1] europe-west2  (supports standard and flexible)
 
@@ -47,7 +45,9 @@ Webproxy
 
 >Please enter your numeric choice:
 
-Если вы не знаете что выбрать, можете просто нажать "1" и клавишу ввода. Утилита установит соединение с указанной площадной. 
+Если вы не знаете что выбрать, можете просто нажать "1" и клавишу ввода. 
+
+Утилита установит соединение с указанной площадной:
 
 >Creating App Engine application in project [{ваш_Project_ID}] and region [us-central]....done.
 
